@@ -12,6 +12,6 @@ public class ScoreTest {
         avg2 = Math.round(avg2 * 100) / 100.0;
         System.out.println("총점 : " + sum);
         System.out.println("평균 : " + avg);
-        System.out.println("평균 : " + avg2);
+        System.out.println("평균 : " + avg2) ;
     }
 }
