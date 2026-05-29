@@ -1,8 +1,6 @@
 package ch06;
 
-import java.util.Scanner;
-
-public class OperaterTest {
+public class OperatorTest {
     static void main() {
 //        int num1 = 5;
 //        int num2 = 20;

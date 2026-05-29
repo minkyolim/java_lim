@@ -1,4 +1,4 @@
-package ch07;
+package ch09;
 
 public class ForIf {
     public static void main(String[] args) {

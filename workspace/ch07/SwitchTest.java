@@ -1,6 +1,6 @@
 package ch07;
 
-public class SwichTest {
+public class SwitchTest {
     public static void main(String[] args) {
 //        int diceNum = 6;
 //        switch (diceNum) {
@@ -37,7 +37,7 @@ public class SwichTest {
 
         char grade = 'D';
 
-        SwichTest dc = new SwichTest();
+        SwitchTest dc = new SwitchTest();
         dc.discount('A');
 
 //        System.out.println("회원님은" + grade + "등급 이므로 정상가 " + price + "원에서 " + discountRate + "%할인된 가격 " + lastPrice + "원입니다");

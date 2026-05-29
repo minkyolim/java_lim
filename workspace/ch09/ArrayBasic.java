@@ -1,4 +1,5 @@
-import java.lang.reflect.Array;
+package ch09;
+
 import java.util.Arrays;
 
 public class ArrayBasic {
