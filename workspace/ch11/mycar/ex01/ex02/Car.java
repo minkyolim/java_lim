@@ -1,9 +1,11 @@
-package ch11.mycar;
+package ch11.mycar.ex01.ex02;
 
 public class Car {
     String model;
     int speed;
     int gear;
+
+
 
     void speedUp() {
         speed += 10;
