@@ -12,4 +12,28 @@ public class Bus extends Car {
         super(carName, carNumber, maxPassenger);
     }
 
+    @Override
+    protected void speedUp() {
+        super.speedUp();
+    }
+
+    @Override
+    protected void speedDown() {
+        super.speedDown();
+    }
+
+    @Override
+    protected void start() {
+        super.start();
+    }
+
+    @Override
+    protected void ride() {
+        super.ride();
+    }
+
+    @Override
+    protected void leave() {
+        super.leave();
+    }
 }

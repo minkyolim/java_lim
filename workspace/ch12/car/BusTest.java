@@ -2,7 +2,7 @@ package ch12.car;
 
 public class BusTest {
     public static void main() {
-        Car car = new Car("부가티", "01가4567", 2);
+        Car car = new Bus("7번버스", "01가4567", 40);
         car.start();
         car.speedUp();
         car.speedUp();
@@ -33,6 +33,9 @@ public class BusTest {
         car.speedDown();
         car.ride();
         car.ride();
+        car.leave();
+        car.leave();
+        car.leave();
 
     }
 }

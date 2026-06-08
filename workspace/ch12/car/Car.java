@@ -97,9 +97,14 @@ public class Car {
     }
 
     protected void leave() {
-        System.out.println("승객이 하차합니다.");
-        passengerCount -= 1;
-        System.out.println("탑승객: " + passengerCount + "/" + maxPassenger);
+        if (passengerCount == 1) {
+            System.out.println("더이상 하차할 승객이 없습니다.");
+        } else {
+            System.out.println("승객이 하차합니다.");
+            passengerCount -= 1;
+            System.out.println("탑승객: " + passengerCount + "/" + maxPassenger);
+        }
     }
+
 
 }
