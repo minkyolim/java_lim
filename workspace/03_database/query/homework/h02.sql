@@ -64,7 +64,7 @@ SELECT *
 FROM post
 ORDER BY created_at DESC
 LIMIT 10; 
-
+ 
 SELECT *
 FROM post
 ORDER BY created_at DESC
