@@ -11,7 +11,7 @@ DELETE FROM post
 -- 1번 회원 삭제 (게시글 테이블 생성 시 ON DELETE SET NULL 제약 조건을 지정했으므로, 회원 삭제 시 관련된 하위 게시글 데이터의 FK 값이 NULL이됨)
 SELECT * FROM member WHERE id = 1;
 DELETE FROM member
-    WHERE id = 1;
+    WHERE id = 1; 
 
 
 

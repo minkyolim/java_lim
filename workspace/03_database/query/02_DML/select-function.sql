@@ -14,7 +14,7 @@ WHERE content LIKE '%안녕하세요%';
 -- 게시글 본문의 첫 10글자만 미리보기로 가져오기(잘린 뒷부분은 ...으로 표시하세요.)
 SELECT title, CONCAT(SUBSTR(title, 1, 10), '...') AS preview
 FROM post;
-
+ 
 -- 이메일을 소문자/대문자로 조회
 SELECT email, LOWER(email) AS email_lower, UPPER(email) AS email_upper
 FROM MEMBER;

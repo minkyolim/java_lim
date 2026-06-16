@@ -19,7 +19,7 @@ ORDER BY post_count, total_views DESC;
 SELECT DATE_FORMAT(created_at, '%Y') AS join_year, COUNT(*) join_count
 FROM MEMBER
 GROUP BY DATE_FORMAT(created_at, '%Y');
-
+ 
 
 -- 회원별로 작성한 게시글의 수, 총 조회수 조회 (게시글이 5개 이상인 경우만)
 SELECT member_id, COUNT(*) AS post_count, SUM(view_count) AS total_views

@@ -13,7 +13,7 @@ WHERE created_at = '2025-05-10 12:13:45';
 SELECT * 
 FROM MEMBER
 WHERE created_at = (SELECT MIN(created_at) FROM MEMBER);
-
+ 
 
 -- 게시글을 하나라도 작성한 회원 id 추출
 SELECT DISTINCT member_id FROM post WHERE member_id IS NOT NULL;

@@ -16,7 +16,7 @@ INSERT INTO member (email, password, name, phone) VALUES
 -- 게시글 데이터 삽입
 INSERT INTO post (member_id, title, content)
 VALUES (1, '첫 번째 게시글', '안녕하세요. 반갑습니다.');
-
+ 
 INSERT INTO post (member_id, title, content)
 VALUES (2, '질문 있습니다', '데이터베이스 기초에 대한 질문입니다.');
 

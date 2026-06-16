@@ -5,7 +5,7 @@ CREATE TABLE member (
     password VARCHAR(255) NOT NULL,
     name VARCHAR(50) NOT NULL,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-);
+); 
 
 -- post (게시글 테이블) 생성
 CREATE TABLE post (

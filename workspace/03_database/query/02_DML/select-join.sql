@@ -15,7 +15,7 @@ SELECT p.id, p.member_id, p.title, p.view_count, m.name, m.email
 FROM post p
 INNER JOIN member AS m ON p.member_id = m.id;
 
-
+ 
 -- 모든 댓글 조회
 SELECT * FROM reply;
 

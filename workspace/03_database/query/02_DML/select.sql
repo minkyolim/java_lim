@@ -18,7 +18,7 @@ SELECT member_id
 SELECT DISTINCT member_id
     FROM post;
 2026-06-16 07:26:30
-
+ 
 
 -- 특정 이메일을 사용하는 회원 정보 조회
 SELECT id, name
