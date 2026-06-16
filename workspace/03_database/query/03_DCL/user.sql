@@ -8,7 +8,7 @@ IDENTIFIED BY '2222';
 
 -- 특정 도메인(또는 호스트명)에서만 접속 가능한 계정 생성
 CREATE USER 'board_app'@'board.likelion.net' IDENTIFIED BY '1234';
-
+ 
 -- DB 사용자 조회
 SELECT USER, host
 FROM mysql.USER;
