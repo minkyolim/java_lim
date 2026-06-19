@@ -2,7 +2,7 @@
 -- 작성한지 24시간 이내의 게시글 제목 앞에 (New) 추가
 -- 댓글이 3개 이상 달린 게시글 제목 앞에 (Best) 추가
 
-SELECT m.name, COUNT(r.id) AS reply_count, p.created_at
+SELECT p.title, m.name, COUNT(r.id) AS reply_count, p.created_at
 FROM post p
 LEFT JOIN reply r ON r.post_id = p.id
 LEFT JOIN member m ON m.id = p.member_id
@@ -33,7 +33,7 @@ GROUP BY r.POST_ID
 HAVING count(r.id)>=3;
 */
 
--- SELECT * FROM post;
+SELECT * FROM post;
 
 -- 2. 게시글 상세 조회 (게시글 제목, 내용, 작성자 이름, 이메일, 댓글 작성자 이름, 댓글 내용 조회)
 SELECT p.title,p.content,m1.name,m1.email,IFNULL(m2.name, '-')댓글작성자,IFNULL(r.content, '-')AS 댓글내용

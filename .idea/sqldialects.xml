@@ -4,6 +4,5 @@
     <file url="file://$PROJECT_DIR$/workspace/03_database/query/02_DML/select.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/workspace/03_database/query/02_DML/update.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/workspace/03_database/query/03_DCL/user.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/workspace/03_database/query/init_board_db.sql" dialect="GenericSQL" />
   </component>
 </project>
